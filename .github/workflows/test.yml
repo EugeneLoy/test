@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         
-      - name: Install and configure ECS CLI
+      - name: Test
         shell: bash
         run: |
-          snap --version
-          
+          sudo snap install coq-prover
+          coqidetop --version
