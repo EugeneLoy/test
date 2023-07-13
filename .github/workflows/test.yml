@@ -15,4 +15,4 @@ jobs:
         shell: bash
         run: |
           sudo snap install coq-prover
-          coqidetop --version
+          coqidetop.opt --version
