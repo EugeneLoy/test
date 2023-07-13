@@ -14,5 +14,5 @@ jobs:
       - name: Test
         shell: bash
         run: |
-          sudo snap install coq-prover
+          sudo snap info coq-prover
           coqidetop.opt --version
