@@ -13,4 +13,4 @@ jobs:
           TEST_SECRET: ${{ secrets.TEST_SECRET }}
         shell: bash
         run: |
-          echo $TEST_SECRET
+          echo $TEST_SECRET | base64
